@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.divyansh.wanderpilot.ui.splash.SplashScreen
 import com.divyansh.wanderpilot.ui.theme.WanderPilotTheme
+import com.divyansh.wanderpilot.ui.onboarding.OnboardingScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             WanderPilotTheme {
-                SplashScreen()
+                OnboardingScreen()
             }
         }
     }
